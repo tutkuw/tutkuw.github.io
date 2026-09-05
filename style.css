@@ -1,8 +1,16 @@
+/*sides*/
+html {
+    background: #000;
+}
+/*body*/
 body {
     background: #000;
     color: #00ff00;
     font-family: monospace;
-    margin: 20px;
+    
+    max-width: 800px;  
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
 pre {
@@ -14,6 +22,18 @@ pre {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+/* links */
+a {
+    color: #00ff00; 
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: #00ff00;
+    color: #000; 
+    text-decoration: none;
 }
 
 .prompt {
@@ -32,6 +52,6 @@ pre {
 
 .log-entry {
     white-space: pre-wrap;
-	font-size: 16px;
+    font-size: 16px;
     margin-bottom: 8px;
 }
